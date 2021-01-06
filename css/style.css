@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+section{
+    height: 650px;
+    margin-bottom: 100px;
+}
+
+img{
+    width: 100%;
+
+}
+.hero-section{
+    margin-bottom: 400px;
+}
+
+
+h1{
+    font-size: 60px;
+    color: orange;
+    /* text-align: center; */
+}
+h2{
+    font-size: 45px;
+    margin-top: 150px;
+}
+h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    /* padding-left: 1%; */
+    padding: 25px;
+}
+.link-btn{
+    background: orange;
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.about-section{
+    margin-bottom: 400px;
+}
+.about-section p{
+
+margin-bottom: 55px;
+
+margin-top: 35px;
+}
+.portfolio-section{
+    background-color: aliceblue;
+    padding-top: 28px;
+    padding-bottom: 400px;
+}
+.onebythird{
+    width: 27%;
+    float: left;
+    /* padding-left: 2%; */
+    margin-left: 3%;
+    background: white;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 20px;
+    height: 85%;
+    padding: 25px;
+}
+.portfolio-section h2{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+h5{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.add-section{
+
+
+}
+
+
+.add{height: 400px;width: 70%;background-image: url(../images/add.png);background-repeat: no-repeat;background-position: center;/* padding: 83px; */background-size: contain;margin-left: auto;margin-right: auto;/* padding: 25px; */}
+
+.add-section h6{
+    font-size: 50px;
+    color: #fdfdfd;
+    margin-top: 80px;
+    text-align: center;
+    margin-top: 200px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.half{
+   
+width: 50%;
+   
+float: left;
+}
+
+.inquiry-btn{
+
+background: orange;
+
+padding: 10px 20px;
+
+color: #fff;
+
+border-radius: 5px;
+
+margin-left: 300px;
+
+margin-top: !important;
+
+/* padding-top: 30px; */
+}
+
+
+.portfolio-section strong{
+
+    color: orange;
+
+}
+.portfolio-section p{
+    font-size: 16px;
+    color: dimgray;
+}
+
+ footer{
+     text-align: center;
+ }
+
+ footer p{
+
+ }
+
+ footer h3{
+
+ }
+ footer ul{
+     overflow: hidden;
+     
+
+ }
+ footer ul li{
+     list-style: none;
+     float: left;
+     width: 10%;
+     height: 10%;
+ }
+ footer img{
+     width: 5%;
+
+ }

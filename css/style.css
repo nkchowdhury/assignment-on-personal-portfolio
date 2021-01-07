@@ -13,7 +13,66 @@ section{
     height: 650px;
     margin-bottom: 100px;
 }
+header{
 
+display: flex;
+
+flex-wrap: wrap;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding-top: 20px;
+
+margin-bottom: 80px;
+}
+.logo{
+
+flex-basis: 20%;
+
+max-width: 20%;
+}
+.logo h6{
+
+font-size: 28px;
+
+color: orange;
+
+margin-left: 99px;
+}
+nav{
+    
+max-width: 50%;
+    
+flex-basis: 50%;
+    
+margin-right: 121px;
+}
+nav ul{
+
+display: flex;
+
+/* justify-content: end; */
+
+justify-content: flex-end;
+}
+nav ul li{
+
+/* display: flex; */
+
+list-style: none;
+
+margin-left: 30px;
+}
+nav ul li a{
+
+font-size: 20px;
+
+color: #4e4d4d;
+
+font-weight: 500;
+}
 img{
     width: 100%;
 
@@ -31,11 +90,13 @@ h1{
 h2{
     font-size: 45px;
     margin-top: 150px;
+    color: #333333;
 }
 h3{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 30px;
+    color: #504c4c;
 }
 .half-width{
     width: 40%;
@@ -81,12 +142,14 @@ margin-top: 35px;
 .portfolio-section h2{
     text-align: center;
     margin-bottom: 70px;
+    color: #333333;
 }
 
 h5{
     font-size: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
+    color: #2f2f2f;
 }
 .add-section{
 
@@ -102,8 +165,12 @@ h5{
     margin-top: 80px;
     text-align: center;
     margin-top: 200px;
-    text-transform: uppercase;
     font-weight: 600;
+}
+.uppercase{
+
+    text-transform: uppercase;
+
 }
 
 .half{
@@ -147,11 +214,17 @@ margin-top: !important;
 
  footer p{
 
- }
+font-size: 22px;
+
+color: dimgray;
+
+}
 
  footer h3{
 
- }
+color: #383737;
+
+}
  footer ul{
      overflow: hidden;
      margin-left: auto;

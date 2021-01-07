@@ -154,16 +154,23 @@ margin-top: !important;
  }
  footer ul{
      overflow: hidden;
-     
-
+     margin-left: auto;
+     width: 45%;
+     margin-right: auto;
+     /* text-align: center; */
+     /* align-content: center; */
  }
  footer ul li{
      list-style: none;
      float: left;
-     width: 10%;
-     height: 10%;
+     width: 8%;
+     /* height: 8%; */
+     margin-left: 15px;
+     /* margin-left: auto; */
  }
  footer img{
-     width: 5%;
-
+     /* width: 20%; */
+     margin-left: 365px;
  }
+
+ 
